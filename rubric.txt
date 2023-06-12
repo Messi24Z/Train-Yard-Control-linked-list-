@@ -1,0 +1,33 @@
+Functionality (30 points)
+---------------------------------------
+Ability to add and remove train cars to/from the train (5 points):
+Train cars are classes in the linked-list (5 points):
+Total count of cars in the train (e.g., passenger, cargo) (5 points):
+Display of train car details including passenger count or material quantity (15 points):
+
+Train Unloading and Processing (10 points)
+---------------------------------------
+Printing of passenger count or material quantity for each individual car during unloading (5 points):
+Printing of final number of train cars processed once all cargo has been unloaded (5 points):
+
+Linked-List Implementation (10 points)
+---------------------------------------
+Correct implementation of the train class as a linked list (10 points):
+Appropriate handling of edge conditions (5 points):
+
+Code Quality (15 points)
+---------------------------------------
+Memory management, no memory leaks (10 points): 
+Code organization and readability, proper naming conventions, comments, and indentation (5 points):  
+
+Test Cases (20 points)
+---------------------------------------
+Test coverage -- comprehensive set of test cases to cover different scenarios and functionalities (10 points):  
+Test accuracy -- test cases correctly evaluate the expected behavior of the system (10 points):  
+
+Readme / Documentation (15 points)
+---------------------------------------
+Readme is updated under the picture to explain challeneges in the project, how to run the code, and a description of the workflow (15 points): 
+
+Total Possible Points: 100  
+Student Actual Points:   
