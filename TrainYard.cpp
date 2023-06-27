@@ -55,7 +55,7 @@ void TrainYard::processYard() {
 
         if (track_iterator->processTrains()){
             std::size_t index = std::distance(yard.begin(), track_iterator);
-            std::cout << "A train left the platform on track " << index << std::endl;
+            std::cout << "A train left the platform on track " << index + 1 << std::endl;
             addPocessedTrainToCount();
         }
     }
