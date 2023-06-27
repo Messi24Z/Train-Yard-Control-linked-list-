@@ -15,7 +15,9 @@ Write test cases only for your implementation of the linked-list.
 ![image](./trains.png)
 
 to complete this project
+
 1st: I created a Car class in the train class which workes as a node 
+
 2nd: created more variables and functions to my Train class that allowed me to make the class a linked list class
 - created functions that help insert and remove cars from the train
 - a separate class to loead a certain amount of cars with values to my car
@@ -28,5 +30,6 @@ to complete this project
     - as the train is ready to unload the function prints out the name, type, and fullness (in percent) of the train
     - as it unloads it gives us the detail every car in the train and remove each one of them from the train
     - and after unloading evry one of the cars it gives prints out the total amount of cars the train had
+    
 3rd. we have the constructor class to creat a new object of and a destructor that helps us clean the allocated memories.
 
