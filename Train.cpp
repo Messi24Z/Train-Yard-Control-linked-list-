@@ -109,14 +109,18 @@ void Train::insertCar(){
 
 void Train::removeCar(){
 
+
+    if (head == nullptr){
+
+        cout<<"there is no car to be removed"<<endl;
+    }else
+
     if(head->getNext()== nullptr){
-        tail=head;
+        //tail=head;
         delete head;
         tail= nullptr;
         head= nullptr;
         tLength = 0;
-    } else if (head == nullptr){
-        cout<<"there is no car to be removed"<<endl;
     }
     else{
         TrainCar* curr = head->getNext();
@@ -149,8 +153,11 @@ void Train::loadCargo(int num){
  * */
 
 int Train::rndNun(int a, int b){
-    //srand(time(NULL));
-    int ans = (rand() % (b-a+1) )+ a;
+    int ans = 0;
+    if (b>a)
+        ans = (rand() % (b-a+1) )+ a;
+    else
+        ans = (rand() % (a-b+1) )+ b;
     return ans;
 }
 

@@ -53,11 +53,12 @@ public:
    Partial Modfication Needed, where uncommented
 */
 class Train {
-    int tLength;
+    
     TrainCar* head;
     TrainCar* tail;
 
 public:
+    int tLength;
     int id; // do not modify this line
     std::string cargoName;
     int percentFull;
